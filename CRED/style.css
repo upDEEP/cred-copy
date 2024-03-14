@@ -1,16 +1,16 @@
 @font-face {
   font-family: GilroyBold;
-  src: url(assistant/font/Gilroy-Bold.ttf);
+  src: url(assistant/font/Gilroy-Bold.woff2);
 }
 
 @font-face {
   font-family: GilroyRegular;
-  src: url(assistant/font/Gilroy-Regular.ttf);
+  src: url(assistant/font/Gilroy-Regular.woff2);
 }
 
 @font-face {
   font-family: GilroySemiBold;
-  src: url(assistant/font/Gilroy-SemiBold.ttf);
+  src: url(assistant/font/Gilroy-SemiBold.woff2);
 }
 
 * {
@@ -111,7 +111,7 @@ nav a {
   width: 100%;
   height: 100vh;
   padding-top: 60vw;
-  background-image: url(assistant/image/video-bg.png);
+  background-image: url(assistant/image/video-bg.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,7 +171,7 @@ nav a {
 }
 
 .part-3 {
-  background-image: url(assistant/image/deserve-more-bg.jpg);
+  background-image: url(assistant/image/deserve-more-bg.webp);
   background-size: cover;
 }
 
@@ -237,7 +237,7 @@ nav a {
 }
 
 .part-4 {
-  background-image: url(assistant/image/money-matters-bg.jpg);
+  background-image: url(assistant/image/money-matters-bg.webp);
   background-size: cover;
 }
 
@@ -328,19 +328,19 @@ nav a {
 .part-6 {
   height: 50vh;
   width: 100%;
-  background-image: url(assistant/image/neopop-image-mock.png);
+  background-image: url(assistant/image/neopop-image-mock.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .part-7 {
-  background-image: url(assistant/image/security-bg.jpg);
+  background-image: url(assistant/image/security-bg.webp);
   background-size: cover;
 }
 
 .part-8 {
-  background-image: url(assistant/image/trust-bg.jpg);
+  background-image: url(assistant/image/trust-bg.webp);
   background-size: cover;
   flex-direction: row;
   align-items: center;
